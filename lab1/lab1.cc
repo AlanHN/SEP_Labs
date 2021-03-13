@@ -82,7 +82,7 @@ int main()
     for (int i = 0; i < 81; ++i) {
         basic_class.addStudent(undergraduate_students[i]);
     }
-    // Add all graduate students and undergrudate students to common_class
+    // Add all graduate students and undergraduate students to common_class
     for (int i = 0; i < 81; ++i) {
         common_class.addStudent(undergraduate_students[i]);
     }
